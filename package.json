@@ -1,20 +1,12 @@
 {
   "name": "socialbuz-webhook",
   "version": "1.0.0",
-  "description": "\"# socialbuz-webhook\"",
-  "main": "index.js",
+  "description": "Aplikasi webhook untuk Socialbuz",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/syikal0/socialbuz-webhook.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/syikal0/socialbuz-webhook/issues"
-  },
-  "homepage": "https://github.com/syikal0/socialbuz-webhook#readme"
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
